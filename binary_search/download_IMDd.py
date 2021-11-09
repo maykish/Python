@@ -1,6 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
-# This script downloads a movie database file from the web and parses its contents, extracting the first column of data and then sorting it out alphabetically. In the end, names.txt is created with the names of all people from the database, and sorted_names.txt, with a sorted list for use in more programming projects.  
+# This script downloads an IMDb (movie database) file and creates/writes to names.txt and sorted_names.txt by 
+# parsing and sorting names from the first column of the downloaded file.
 
 from typing import List
 import requests
